@@ -2,13 +2,23 @@
 
 This guide will help you integrate PayPal into your Laravel project using the PayPal REST API SDK.
 
-## Installation
+## Steps to Integrate PayPal
 
-To integrate PayPal into your Laravel project, follow these steps:
+### 1. Create a PayPal Developer Account
 
-### 1. Install the PayPal SDK
+Before integrating PayPal into your Laravel project, you need to create a PayPal Developer account and get your credentials (Client ID and Secret).
+
+1. Go to the [PayPal Developer Site](https://developer.paypal.com/).
+2. Sign up for a PayPal Developer account if you don’t already have one.
+3. After logging in, navigate to **My Apps & Credentials**.
+4. Under **REST API apps**, click on **Create App**.
+5. Fill in the necessary information for your app (name, etc.), and PayPal will generate your **Client ID** and **Secret** for you.
+6. Use these credentials in your Laravel project for authentication and making API calls.
+
+### 2. Install the PayPal SDK
 
 Run the following command in your terminal to install the PayPal REST API SDK via Composer:
 
 ```bash
 composer require paypal/rest-api-sdk-php
+
