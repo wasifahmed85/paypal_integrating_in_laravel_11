@@ -22,6 +22,7 @@ Run the following command in your terminal to install the PayPal REST API SDK vi
 ```bash
 composer require paypal/rest-api-sdk-php
 
+```
 3. Create PayPal Controller
 In this step, you'll create a controller that will handle PayPal payment processing.
 
