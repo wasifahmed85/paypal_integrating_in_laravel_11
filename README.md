@@ -30,6 +30,6 @@ Generate Controller:
 
 Run the following command in your terminal to generate a new controller for PayPal:
 
-bash
-Copy
+```bash
 php artisan make:controller PayPalController
+```
